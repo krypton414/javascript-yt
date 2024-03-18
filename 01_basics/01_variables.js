@@ -25,7 +25,7 @@ console.log(accountId);
 
 /*
 Prefer not to be use Var
-because of issues in a block scope and functional scope
+because of issue in a block scope and functional scope
 */
 
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
