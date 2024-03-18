@@ -10,6 +10,11 @@ var accountPassword = "12345"
 // it can be re-assigned a value and it can also be declared again on (global scope)
 accountCity = "Noida"
 
+// without usign any let const var assigned a variable are not the proper way to declare a variable 
+
+let accountState;
+// if you not declare the value it shows undefine in the console .
+
 //  accountId=23 "Not allowed"
 
 accountEmail="piyush@goggle.com"
@@ -18,6 +23,11 @@ accountCity = "Agra"
 
 console.log(accountId);
 
-console.table([accountId,accountEmail,accountPassword,accountCity]);
+/*
+Prefer not to be use Var
+because of issues in a block scope and functional scope
+*/
+
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
 // console.table is using for a multile variable console in single line 
 
