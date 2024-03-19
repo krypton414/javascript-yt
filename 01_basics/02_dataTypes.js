@@ -26,4 +26,7 @@ of data types primitive and non-primitive
 
 // object
 
-console.log(typeof age);
+console.log(typeof age); // typeof function use for the check the datatype of variable 
+console.log(typeof null); // it is a object data type * imp 
+console.log(typeof undefined); // undefined 
+console.log(typeof Symbol); // function 
