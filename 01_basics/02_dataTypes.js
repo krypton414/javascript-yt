@@ -4,8 +4,6 @@
 
 console.log(3+3);
 
-
-
 let name = 'piyush'
 let age = 18
 let isLoggedin= false
@@ -28,4 +26,4 @@ of data types primitive and non-primitive
 
 // object
 
-console.log(typeof "Piyush");
+console.log(typeof age);
