@@ -26,5 +26,38 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 34
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+//  ********************* OPERATIONS **********************************
+
+let value = 4
+let negValue = -value
+// console.log(negValue);
+
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/2);
+// console.log(2%2);
+
+
+let str1 = "Piyush"
+let str2 = "Hello"
+
+let str3 = str1 + str2
+// console.log(str3)
+
+// console.log(1+ "2");
+// console.log("2" + 3); //adding a string and number vice versa also are different  
+// console.log("2" + 3 + 3);
+// console.log(2 + 3 + "3");
+
+
+// console.log((3+4)* 7 + 4 % 6);
+
+
+console.log(true);
